@@ -570,7 +570,7 @@ var AllUsersComponent = /** @class */ (function () {
         if (term == 'prev') {
             this.skip = this.skip == 0 ? this.skip : this.skip - this.limit;
             if (!this.moveforward) {
-                this.skip = this.skip - 2;
+                this.skip = this.skip > 2 ? this.skip - 2 : this.skip;
             }
             this.getAllUserByLimit();
         }
