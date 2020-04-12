@@ -1365,7 +1365,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var Base_URL = "http://localhost:3000/api/v1/users/";
+var Base_URL = "http://13.232.240.42:3000/api/v1/users/";
 var AuthService = /** @class */ (function () {
     function AuthService(http, router) {
         this.http = http;
@@ -1463,7 +1463,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var BASE_URL = "http://localhost:3000";
+var BASE_URL = "http://13.232.240.42:3000";
 var MeetingSocketService = /** @class */ (function () {
     function MeetingSocketService(http) {
         var _this = this;
@@ -1547,7 +1547,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var Base_URL = "http://localhost:3000/api/v1/users/";
+var Base_URL = "http://13.232.240.42:3000/api/v1/users/";
 
 var MeetingService = /** @class */ (function () {
     function MeetingService(http, router, meetingSocket) {
@@ -1700,7 +1700,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var Base_URL = "http://localhost:3000/api/v1/users/";
+var Base_URL = "http://13.232.240.42:3000/api/v1/users/";
 var UserService = /** @class */ (function () {
     function UserService(http, router) {
         this.http = http;
