@@ -129,6 +129,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_all_users_all_users_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/all-users/all-users.component */ "./src/app/modules/all-users/all-users.component.ts");
 /* harmony import */ var _modules_user_calendar_user_calendar_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/user-calendar/user-calendar.component */ "./src/app/modules/user-calendar/user-calendar.component.ts");
 /* harmony import */ var _guard_auth_guard__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./guard/auth.guard */ "./src/app/guard/auth.guard.ts");
+/* harmony import */ var _app_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../app/not-found/not-found.component */ "./src/app/not-found/not-found.component.ts");
+
 
 
 
@@ -165,6 +167,8 @@ var routes = [
             }
         ]
     },
+    { path: '404', component: _app_not_found_not_found_component__WEBPACK_IMPORTED_MODULE_10__["NotFoundComponent"] },
+    { path: '**', redirectTo: '/404' }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
